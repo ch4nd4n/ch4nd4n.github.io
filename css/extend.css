@@ -1,0 +1,9 @@
+.title{font-family: 'Codystar', Arial, serif; font-weight: 400;text-shadow: 2px 2px 4px #000;}
+body{background:#dedede;padding-top:60px;}
+header {background:#333;color:#cecece;border-bottom:2px solid red;}
+header h1 {margin:0;}
+.photo{width:120px;height:75px;display:inline-block;background:#fff;padding:5px;border:1px solid #aaa;margin-left:10px;}
+.photo img{width:100%;max-height:75px;}
+.album {margin-top:25px;}
+.photoHolder{min-height:500px;}
+footer {border-top:2px solid red;}
