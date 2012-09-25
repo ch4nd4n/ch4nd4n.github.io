@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Index DB Example</title>
+    <link href="tw_bs/css/bootstrap.css" rel="stylesheet">
+    <link href="tw_bs/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/extend.css">
+  </head>
+  <body>
+     <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">TODO Example</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h3>Simple TODO APP</h3>
+      <input id="todo-item" type="text" />
+      <input id="add-item" type="button" value="Add +"/>
+      <h5>List of TODOS</h5>
+      <ul id="todo-list"></ul>
+      <hr />
+      <ul>
+        <li>References</li>
+        <li>https://github.com/jensarps/IDBWrapper</li>
+        <li>https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB</li>
+      </ul>
+    </div>
+    <div id="console"></div>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+    <script type="text/javascript" src="js/IDBStore.js"></script>
+    <script type="text/javascript" src="js/todo_ldb.js"></script>
+  </body>
+</html>
